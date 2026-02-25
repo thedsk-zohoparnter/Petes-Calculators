@@ -296,7 +296,7 @@ export default function Step4_Results({ results, departmentData, duration, setDu
             </div>
 
             {/* Footer Actions */}
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6 pb-86">
                 <button
                     onClick={() => handleStepChange(3)}
                     className="font-black text-xs uppercase tracking-widest text-slate-400 hover:text-[#0066FF] transition-colors flex items-center gap-2 group"
